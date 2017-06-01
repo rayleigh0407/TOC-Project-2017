@@ -25,6 +25,7 @@ basicURL = 'http://course-query.acad.ncku.edu.tw/qry/qry001.php?dept_no='
 class course:
     def __init__(self):
         self.dept_name = ''         #系所名稱
+        self.dept_no = ''           #系所編號
         self.course_num = ''        #課程編號
         self.course_code = ''       #課程編碼
         self.course_name = ''       #課程名稱
@@ -121,7 +122,7 @@ def data_build():
                         temp_dept.dept_name = clean_dept
                         temp_course.dept_name = clean_dept
                     elif (j == 1):
-                        pass
+                        temp_course.dept_no = dept
                     elif (j == 2):
                         temp_course.course_num = clean_info
                         #if ( clean_info != '' ):
