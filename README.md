@@ -56,5 +56,8 @@ $ sh chat_shell.sh
     都會被此系統狠狠的教訓
     始其痛改前非
     好好認真唸書
+    
+### Bot link
+[nigganiggabot](https://telegram.me/nigganiggabot)
 ## Author
 [rayleigh0407](https://github.com/rayleigh0407)
