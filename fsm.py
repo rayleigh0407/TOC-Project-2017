@@ -260,7 +260,7 @@ class TocMachine(GraphMachine):
             text = update.message.text
         else:
             text = 'no input'
-        if text != 'no input':
+        if text == '\start' or text != 'no input':
             reply_word = init_message()
             update.message.reply_text(reply_word)
             return 1
