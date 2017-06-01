@@ -32,6 +32,8 @@ pip3 install -r requirements.txt
 $ sh chat_shell.sh
 ```
 
+如發生錯誤，高機率為學校課程網站連線逾時
+
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
 
